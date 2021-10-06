@@ -2,7 +2,7 @@ html,
 body {
   padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+  font-family: -apple-system, yellixregular, BlinkMacSystemFont,  Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 }
 
@@ -13,4 +13,19 @@ a {
 
 * {
   box-sizing: border-box;
+}
+
+
+@font-face {
+  font-family: "yellixregular";
+  src: url("https://kmmrce-narimanadam.vercel.app/fonts/yellix/yellix-regular.woff2") format("woff2"),url("https://kmmrce-narimanadam.vercel.app/fonts/yellix/yellix-regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "akkurat-monoregular";
+  src: url("https://kmmrce-narimanadam.vercel.app/fonts/akkurat-mono/akkurat-mono.woff2") format("woff2"),url("https://kmmrce-narimanadam.vercel.app/fonts/akkurat-mono/akkurat-mono.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
 }
